@@ -13,6 +13,16 @@ const graficoPizza = new Chart(ctxPizza, {
             bordarWidth: 1
         }]
     },
-    
-
-}
+    options: {
+        responsive: true,
+        plugins: {
+            legend: {
+                position: 'bottom',
+            },
+            title: {
+                display: true,
+                text: 'Alimentação Saudável'
+            }
+        }
+    }
+});    
