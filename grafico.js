@@ -26,3 +26,13 @@ const graficoPizza = new Chart(ctxPizza, {
         }
     }
 });    
+
+
+
+const ctxBarra = document.getElementById('graficoBarra').getContext('2d');
+const graficoBarra = new Chart(ctxBarra, {
+    type: 'bar',
+    data: {
+        labels: ['']
+    }
+})
