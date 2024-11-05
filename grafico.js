@@ -1,5 +1,5 @@
-const ctxPizza = document.getElementById('graficoPizza').getContext('2d');
-const graficoPizza = new Chart(ctxPizza, {
+const ctxPizza1 = document.getElementById('graficoPizza').getContext('2d');
+const graficoPizza1 = new Chart(ctxPizza, {
     type: 'pie',
     data: {
         labels: ['Todos os dias', 'Raramente', 'As vezes', 'Nunca'],
@@ -23,12 +23,12 @@ const graficoPizza = new Chart(ctxPizza, {
                 display: true,
                 text: 'Alimentação Saudável'
             }
-        }S
+        }
     }
 });    
 
-const ctxPizza = document.getElementById('graficoPizza').getContext('2d');
-const graficoPizza = new Chart(ctxPizza, {
+const ctxPizza2 = document.getElementById('graficoPizza').getContext('2d');
+const graficoPizza2 = new Chart(ctxPizza, {
     type: 'pie',
     data: {
         labels: ['Todos os dias', 'Raramente', 'As vezes', 'Nunca'],
@@ -56,8 +56,8 @@ const graficoPizza = new Chart(ctxPizza, {
     }
 });    
 
-const ctxPizza = document.getElementById('graficoPizza').getContext('2d');
-const graficoPizza = new Chart(ctxPizza, {
+const ctxPizza3 = document.getElementById('graficoPizza').getContext('2d');
+const graficoPizza3 = new Chart(ctxPizza, {
     type: 'pie',
     data: {
         labels: ['0', '1', '2', '3','+'],
@@ -85,8 +85,8 @@ const graficoPizza = new Chart(ctxPizza, {
     }
 });    
 
-const ctxPizza = document.getElementById('graficoPizza').getContext('2d');
-const graficoPizza = new Chart(ctxPizza, {
+const ctxPizza4 = document.getElementById('graficoPizza').getContext('2d');
+const graficoPizza4 = new Chart(ctxPizza, {
     type: 'pie',
     data: {
         labels: ['1L', '2L', '3L', '+','-'],
